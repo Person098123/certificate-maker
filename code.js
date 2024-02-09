@@ -1,9 +1,7 @@
 
 
 function nFunction(){
-var x = document.createElement("IMG");
-x.setAttribute("src", "pics/basic certificate.png");
-certificate.getElementByClass("certificate-container")
+document.getElementById("certificate-container").style.backgroundImage="url('pics/basic-certificate.png')";
 
 
 // if(nFunction==)
@@ -12,14 +10,25 @@ certificate.getElementByClass("certificate-container")
 
 }
 function sFunction(){
-   var x = document.createElement("IMG");
-   x.setAttribute("src", "pics/school-certificate.png");
-   document.body.appendChild(x);
+   document.getElementById("certificate-container").style.backgroundImage="url('pics/school-certificate.png')";
    }
 
    function mFunction(){
-      var x = document.createElement("IMG");
-      x.setAttribute("src", "pics/ribbon-certificate.png");
-      document.body.appendChild(x);
+      document.getElementById("certificate-container").style.backgroundImage="url('pics/ribbon-certificate.png')";
       }
 
+      function lFunction(){
+         document.getElementById("pick-l").style.backgroundImage="url('pics/ze-spy-from-tf2.png')";
+         }
+   
+
+         function gFunction(){
+            document.getElementById("pick-l").style.backgroundImage="url('pics/gulpin.png')";
+            }
+            function cwFunction(){
+               document.getElementById("pick-l").style.backgroundImage="url('pics/clovis-west.png')";
+               }
+               function wFunction(){
+                  document.getElementById("pick-l").style.backgroundImage="url('pics/walt.png')";
+                  
+                  }

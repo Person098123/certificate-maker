@@ -1,22 +1,43 @@
-#ton{
-display: flex;
-align-content: center;
-justify-content: center; 
-}
-#ten{
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+.button-fic{
     display: flex;
-    align-content: center;
     justify-content: center;
 }
-
-#tin{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
+#certificate-container{
+    margin-left: 46em;
+    margin-top: 20em;
+ background-repeat: no-repeat;
+ border:solid .5em black;
+ height: 412px; 
+  width:550px
  
-
+}
+#pick-l{
+    display: flex;
+    align-items: flex-end;
+    max-width: 5em;
+    border: solid .2em black;
+    height: 4em;
+    border-radius: 500em;
+    background-repeat: no-repeat;
+    background-color: gray;
+    
+}
+.achive {
+    display:flex;
+justify-content: center;
+    font-family: "La Belle Aurore";
+    font-size: 2em;
+    margin-top: 2em;
+}
+.appointment{
+    display:flex;
+justify-content: center;
+  text-align: center; 
+}
 
 @media print{
     #ton{
