@@ -5,6 +5,8 @@
 .button-fic{
     display: flex;
     justify-content: center;
+    margin: 2em;
+    
 }
 #certificate-container{
     margin-left: 46em;
@@ -13,17 +15,27 @@
  border:solid .5em black;
  height: 412px; 
   width:550px
- 
+  
 }
+
+#pick-medel{
+    float: right;
+    max-width: 50%;
+    width: 5em;
+    height:5em;
+    border-radius: 50%;
+    
+    
+}
+
 #pick-l{
-    display: flex;
-    align-items: flex-end;
-    max-width: 5em;
-    border: solid .2em black;
-    height: 4em;
-    border-radius: 500em;
+    max-width: 50%;
+    width: 5em;
+   float: left;
+    height: 5em;
+    border-radius: 50%;
     background-repeat: no-repeat;
-    background-color: gray;
+
     
 }
 .achive {
@@ -31,7 +43,7 @@
 justify-content: center;
     font-family: "La Belle Aurore";
     font-size: 2em;
-    margin-top: 2em;
+    margin-top: 1.8em;
 }
 .appointment{
     display:flex;
@@ -39,6 +51,36 @@ justify-content: center;
   text-align: center; 
 }
 
+#put-text{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+#fast{
+    display: flex;
+    justify-content: center;  
+    float: left;
+    margin-left: 8em;
+}
+#thedate{
+    float: right;
+    display: flex;
+    justify-content: center;   
+    margin-right:8em;
+    max-width: 50%;
+}
+
+.print{
+display: flex;
+justify-content: center;
+margin-top: 5em;
+}
+#why{
+    margin-left: 5.9em;
+    width: 65%;
+    font-size: 1em;
+    text-align:center;
+}
 @media print{
     #ton{
         display: none;
